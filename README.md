@@ -10,6 +10,7 @@ For best practise and learning i decide to use 3 machine.
 All machines connected via NAT Network (10.0.2.0/24)
 
 | Machine       | IP          | Role    |
+
 |---------------------------------------|
 
 | Kali          | 10.0.2.10  | Attacker |                  
