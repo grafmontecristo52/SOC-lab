@@ -7,16 +7,16 @@ For best practise and learning i decide to use 3 machine.
 - **Kali** (Attacking)
 
 ## Network
-All machines connected via NAT Network (10.0.0.0/24)
+All machines connected via NAT Network (10.10.10.0/24)
 
 | Machine       | IP          | Role    |
 
 |---------------------------------------|
 
-| Kali          | 10.0.0.1  | Attacker |                  
-| Ubuntu        | 10.0.0.2  | Siem     |       
-| Meta3 Linux   | 10.0.0.3  | Victim1  |           
-| Meta3 Windows | 10.0.0.4  | Victim2  |
+| Kali          | 10.10.10.1  | Attacker |                  
+| Ubuntu        | 10.10.10.2  | Siem     |       
+| Meta3 Linux   | 10.10.10.3  | Victim1  |           
+| Meta3 Windows | 10.10.10.4  | Victim2  |
 
 ## Tools
 - Nmap , Hydra.
