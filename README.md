@@ -7,7 +7,7 @@ For best practise and learning i decide to use 3 machine.
 - **Kali** (Attacking)
 
 ## Network
-All machines connected via NAT Network (10.0.2.0/24)
+All machines connected via NAT Network (10.0.0.0/24)
 
 | Machine       | IP          | Role    |
 
