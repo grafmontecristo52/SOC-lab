@@ -13,10 +13,10 @@ All machines connected via NAT Network (10.0.2.0/24)
 
 |---------------------------------------|
 
-| Kali          | 10.0.2.10  | Attacker |                  
-| Ubuntu        | 10.0.2.20  | Siem     |       
-| Meta3 Linux   | 10.0.2.30  | Victim1  |           
-| Meta3 Windows | 10.0.2.40  | Victim2  |
+| Kali          | 10.0.0.1  | Attacker |                  
+| Ubuntu        | 10.0.0.2  | Siem     |       
+| Meta3 Linux   | 10.0.0.3  | Victim1  |           
+| Meta3 Windows | 10.0.0.4  | Victim2  |
 
 ## Tools
 - Nmap , Hydra.
