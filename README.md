@@ -8,6 +8,7 @@ For best practise and learning i decide to use 3 machine.
 - **Kali** (Attacking)
 
 ## Network
+I decide use NAT-network and NAT 
 
 ## Tools
 - Nmap , Hydra.
