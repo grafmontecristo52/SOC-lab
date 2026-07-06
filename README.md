@@ -13,4 +13,4 @@ For best practise and learning i decide to use 4 machine.
 ## Tools
 - Nmap , Hydra 
 - Metasploit Framework
-- 
+- Claude , DeepSeek for srcipts
