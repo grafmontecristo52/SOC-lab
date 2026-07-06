@@ -1,16 +1,16 @@
  # SOC-lab
-My home SOC lab machine for practice and learning cybersec!
 
-For best practise and learning i decide to use 3 machine.
-- **Wazuh v4.14.5 OVA**
+
+For best practise and learning i decide to use 4 machine.
+- **Wazuh v4.14.5 OVA**(SIEM manager wich connected with Windows and Ubuntu agents to collect logs)
 - **Windows 10 machine**
 - **Ubuntu machine**
-- **Kali** (Attacking)
+- **Kali**(Cracker)
 
 ## Network
-I decide use NAT-network and NAT 
+
 
 ## Tools
-- Nmap , Hydra.
+- Nmap , Hydra 
 - Metasploit Framework
 - 
