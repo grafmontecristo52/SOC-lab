@@ -2,8 +2,7 @@
 
 ## Goal
 
-This project is a home-built SOC (Security Operations Center) lab designed to practice log collection, threat detection, alert triage, and incident response using a real SIEM (Wazuh). The goal is to simulate common attack techniques, detect them, and document the full analyst workflow — from raw attack to alert to response — as portfolio evidence for SOC L1 job applications.
-
+This project is a home-built SOC (Security Operations Center) lab designed to practice log collection, threat detection, alert triage, and incident response using a real SIEM (Wazuh). The goal is to simulate common attack techniques, detect them, and document the full analyst workflow — from raw attack to alert to response
 ## Lab Overview
 
 For best practice and learning, I decided to use 4 machines:
