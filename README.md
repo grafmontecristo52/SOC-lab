@@ -9,7 +9,7 @@ For best practice and learning, I decided to use 4 machines:
 
 | Machine | Role | OS | IP |
 |---|---|---|---|
-| Wazuh Manager | SIEM manager, connected with Windows and Ubuntu agents to collect and forward logs | Wazuh v4.14.5 (OVA) | 10.10.10.10 |
+| Wazuh Manager | SIEM manager, connected with Windows and Ubuntu agents to collect and forward logs | Wazuh v4.14.5 (OVA) | .... |
 | Windows 10 | Monitored endpoint / attack target | Windows 10 | 10.10.10.2 |
 | Ubuntu | Monitored endpoint / attack target | Ubuntu | 10.10.10.3 |
 | Kali | Attacker machine | Kali Linux | 10.10.10.1 |
