@@ -114,5 +114,3 @@ Demonstrates knowledge of the reconnaissance phase of the Cyber Kill Chain and t
 - Review for persistence mechanisms and remove any unauthorized accounts.
 - Escalate to full incident response if lateral movement is suspected.
 
-### Takeaway
-This is the strongest demo for an interview — it shows the full attack lifecycle: exploitation → post-exploitation impact → detection → containment/response, tying together detection engineering and incident response skills in one scenario.
