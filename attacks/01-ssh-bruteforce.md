@@ -11,10 +11,10 @@
 - **Tools used:** Hydra
 
 ### Attack Steps
-1. Identify SSH service open on Ubuntu target (port 22).
-2. Run Hydra with a wordlist against the SSH service:
-   `hydra -l user -P wordlist.txt ssh://10.10.10.3`
-3. Observe successful/failed login attempts on the target.
+1. Identify SSH service open on Ubuntu target (port 22) with "sudo nmap -Pn -n -p 22 10.10.10.3"
+2. Use Hydra with a wordlist against the SSH service:
+   `hydra -l user -P 10k-most-common.txt -t 6 ssh://10.10.10.3`
+3. Observe successful/failed login attempts on the target on the dashboard wazuh.
 
 ### Detection
 - Wazuh rule group: `authentication_failures`
@@ -22,7 +22,7 @@
 - Rule logic: aggregate failed `sshd` auth events by `srcip`, threshold-based correlation.
 
 ### Timeline
-- Attack start: [fill in timestamp]
+- Attack start: 21:49:46
 - First failed login logged: [fill in]
 - Alert fired: [fill in]
 - Detection delay: [fill in] seconds
