@@ -8,7 +8,7 @@
 - **MITRE ATT&CK:** T1110 – Brute Force (Tactic: Credential Access)
 - **Attacker:** Kali (10.10.10.1)
 - **Target:** Ubuntu (10.10.10.3), SSH service
-- **Tools used:** Hydra
+- **Tools used:** Hydra , nmap
 
 ### Attack Steps
 1. Identify SSH service open on Ubuntu target (port 22) with "sudo nmap -Pn -n -p 22 10.10.10.3"
