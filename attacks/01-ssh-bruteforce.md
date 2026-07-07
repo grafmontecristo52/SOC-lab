@@ -1,44 +1,5 @@
 # Attack Scenarios — SOC-Lab
 
-Each attack below follows the same template so results are comparable and easy to present in an interview.
-
----
-
-## Template (for future attacks)
-
-```
-## Attack Name
-- MITRE ATT&CK: TXXXX (Tactic: ...)
-- Attacker: Kali (10.10.10.1)
-- Target: ...
-- Tools used: ...
-
-### Attack Steps
-1. ...
-2. ...
-
-### Detection
-- Wazuh rule ID: ...
-- Alert level: ...
-- Rule logic: ...
-
-### Timeline
-- Attack start: ...
-- Log generated: ...
-- Alert fired: ...
-- Detection delay: ... seconds
-
-### Screenshots
-1. Attack execution
-2. Wazuh alert dashboard
-3. Raw log / JSON
-
-### Response / Remediation
-- ...
-
-### Takeaway
-- What this demonstrates about my skills: ...
-```
 
 ---
 
