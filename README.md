@@ -16,9 +16,8 @@ For best practice and learning, I decided to use 4 machines:
 
 ## Network
 
-Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the same network, 10.10.10.0/24. The Wazuh manager (10.10.10.10) is isolated from Kali and the other machines — it only has access to its own IP for collecting and managing logs from the agents.
+Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the same network, 10.10.10.0/24. The Wazuh manager is isolated from Kali and the other machines — it only has access to its own IP for collecting and managing logs from the agents.
 
-*(Architecture diagram to be added — see `/diagrams`)*
 
 ## Tools
 
@@ -44,11 +43,8 @@ Full write-ups with detection logic, screenshots, and analyst response for each 
 
 ## Screenshots
 
-Dashboards, alerts, and raw logs are stored in `/screenshots`.
+
 
 ## Lessons Learned / Next Steps
 
-- Add Suricata for network-based IDS detection alongside Wazuh's host-based detection.
-- Integrate a SOAR tool (e.g. Shuffle or TheHive) to practice automated response.
-- Add more agents/machines to simulate lateral movement scenarios.
-- Expand detection rules to cover privilege escalation and persistence techniques.
+
