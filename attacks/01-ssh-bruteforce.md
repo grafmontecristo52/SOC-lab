@@ -42,7 +42,7 @@
 - Recommend key-based SSH auth instead of passwords.
 
 ### Takeaway
-Demonstrates understanding of credential access techniques, ability to configure/tune correlation-based detection rules (not just use defaults), and knowledge of practical remediation steps.
+
 
 ---
 
