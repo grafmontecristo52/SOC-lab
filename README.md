@@ -1,3 +1,4 @@
+<img width="1000" height="620" alt="1000014101(1)" src="https://github.com/user-attachments/assets/3c9e6635-2dda-4766-82ea-6e612ef69dcb" />
 
 ## Goal
 
@@ -16,6 +17,7 @@ For best practice and learning, I decided to use 4 machines:
 ## Network
 
 Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the same network, 10.10.10.0/24. The Wazuh manager is isolated from Kali and the other machines — it only has access to its own IP for collecting and managing logs from the agents.
+<img width="1000" height="620" alt="1000014101(1)" src="https://github.com/user-attachments/assets/3c9e6635-2dda-4766-82ea-6e612ef69dcb" />
 
 
 ## Tools
