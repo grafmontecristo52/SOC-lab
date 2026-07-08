@@ -23,10 +23,10 @@
 - Rule logic: aggregate failed `sshd` auth events by `srcip`, threshold-based correlation.
 
 ### Timeline
-- Attack start: 21:49:46
-- First failed login logged: [fill in]
-- Alert fired: [fill in]
-- Detection delay: [fill in] seconds
+- Attack start: 21:49
+- First failed login logged: 21:49:46
+- Alert fired: 21:49:50
+- Detection delay: 4 seconds
 
 ### Screenshots
 1. Hydra running against the target
