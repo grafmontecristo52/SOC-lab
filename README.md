@@ -1,4 +1,3 @@
-<img width="1000" height="620" alt="1000014101(1)" src="https://github.com/user-attachments/assets/3c9e6635-2dda-4766-82ea-6e612ef69dcb" />
 
 ## Goal
 
