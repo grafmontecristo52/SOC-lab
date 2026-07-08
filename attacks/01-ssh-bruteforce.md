@@ -1,6 +1,7 @@
 
 
 
+
 ---
 
 ## Attack 1: SSH Brute Force (Hydra)
@@ -29,8 +30,11 @@
 
 ### Screenshots
 1. Hydra running against the target
-2. Wazuh dashboard showing the triggered brute-force alert
-3. Raw log/JSON of the authentication failure event
+2. <img width="749" height="206" alt="hydra ssh" src="https://github.com/user-attachments/assets/5590cdad-7bad-4bbe-a8ad-52cde938e5e8" />
+3. Wazuh dashboard showing the triggered brute-force alert
+4. <img width="1920" height="794" alt="logs ssh" src="https://github.com/user-attachments/assets/c1b37948-bd0a-4a9c-99a3-9ce6406ebe68" />
+5. Raw log/JSON of the authentication failure event
+<img width="1920" height="860" alt="more log ssh" src="https://github.com/user-attachments/assets/ce359674-f593-45be-89fe-7b1eba8ec4f8" />
 
 ### Response / Remediation
 - Block source IP via firewall/iptables.
