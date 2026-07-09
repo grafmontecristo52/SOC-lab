@@ -30,7 +30,6 @@
 - Review exposed services and close unnecessary ports.
 - Flag as reconnaissance — treat as an early warning of a larger intrusion attempt.
 
-### Takeaway
-Demonstrates knowledge of the reconnaissance phase of the Cyber Kill Chain and the importance of catching an attack at its earliest stage, before exploitation occurs.
+
 
 ---
