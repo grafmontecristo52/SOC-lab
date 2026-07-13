@@ -2,8 +2,8 @@
 
 - **MITRE ATT&CK:** T1046 – Network Service Discovery / T1595 – Active Scanning (Tactic: Discovery / Reconnaissance)
 - **Attacker:** Kali (10.10.10.1)
-- **Target:** Ubuntu net 10.10.10.3/24
-- **Tools used:** Nmap
+- **Target:** Ubuntu (10.10.10.3)
+- **Tools used:** Nmap,Suricata
 
 ### Attack Steps
 1. Run a discovery scan across the subnet: `nmap -sn 10.10.10.0/24`
