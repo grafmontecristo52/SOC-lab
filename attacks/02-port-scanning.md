@@ -22,6 +22,7 @@
 ### Screenshots
 1. Nmap scan output
 <img width="586" height="346" alt="nmap scan" src="https://github.com/user-attachments/assets/ddbf15c1-2f10-42d4-8023-75bbae287516" />
+
 2.Wazuh/IDS alert dashboard showing scan detection
 <img width="1697" height="43" alt="nmap dash" src="https://github.com/user-attachments/assets/7dc61586-a593-4e43-a7dc-7a5b84b5c61c" />
 ### Response / Remediation
