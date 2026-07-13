@@ -6,9 +6,8 @@
 - **Tools used:** Nmap,Suricata
 
 ### Attack Steps
-1. Run a discovery scan across the subnet: `nmap -sn 10.10.10.0/24`
-2. Run an aggressive scan against identified hosts: `nmap -A 10.10.10.2 10.10.10.3`
-3. Note the number of ports scanned and the timing profile (`-T4`/`-T5` vs default).
+1. Run a discovery scan: `nmap -Pn -n -sS -p 1-1000 10.10.10.3`
+2. Note the number of ports scanned and the timing profile
 
 ### Detection
 - Detected via Wazuh log analysis of connection attempts (many ports, single source IP, short time window), optionally paired with Suricata/IDS signatures if added.
