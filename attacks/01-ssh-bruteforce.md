@@ -30,10 +30,10 @@
 
 ### Screenshots
 1. Hydra running against the target
-2. <img width="749" height="206" alt="hydra ssh" src="https://github.com/user-attachments/assets/5590cdad-7bad-4bbe-a8ad-52cde938e5e8" />
-3. Wazuh dashboard showing the triggered brute-force alert
-4. <img width="910" height="124" alt="alert" src="https://github.com/user-attachments/assets/796ffa4e-6f05-4592-a042-638cd2869a29" />
-5. Raw log/JSON of the authentication failure event
+<img width="749" height="206" alt="hydra ssh" src="https://github.com/user-attachments/assets/5590cdad-7bad-4bbe-a8ad-52cde938e5e8" />
+2. Wazuh dashboard showing the triggered brute-force alert
+<img width="910" height="124" alt="alert" src="https://github.com/user-attachments/assets/796ffa4e-6f05-4592-a042-638cd2869a29" />
+3. Raw log/JSON of the authentication failure event
 <img width="1920" height="860" alt="more log ssh" src="https://github.com/user-attachments/assets/ce359674-f593-45be-89fe-7b1eba8ec4f8" />
 
 ### Response / Remediation
