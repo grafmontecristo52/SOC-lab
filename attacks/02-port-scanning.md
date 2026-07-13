@@ -10,7 +10,7 @@
 2. Note the number of ports scanned and the timing profile
 
 ### Detection
-- Detected via Wazuh log analysis of connection attempts (many ports, single source IP, short time window), optionally paired with Suricata/IDS signatures if added.
+- Detected via Wazuh log analysis of connection attempts (many ports, single source IP, short time window) paired with Suricata/IDS.
 - Rule logic: flag a source IP hitting N distinct destination ports within a short time window as a port scan.
 
 ### Timeline
