@@ -18,6 +18,8 @@ For best practice and learning, I decided to use 4 machines:
 Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the same network, 10.10.10.0/24. The Wazuh manager is isolated from Kali and the other machines — it only has access to its own IP for collecting and managing logs from the agents.
 <img width="1000" height="680" alt="1000014104" src="https://github.com/user-attachments/assets/da9d4dc6-47fd-4e46-a4dd-20078db16f02" />
 ## Tools
+- Wazuh
+- Suricata
 
 **Attack tools:**
 - Nmap
