@@ -30,7 +30,7 @@ Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the 
 - Metasploit Framework
 
 **Assistance / scripting tools:**
-- Claude, DeepSeek (used for scripting help and research)
+- Claude (used for scripting help and research)
 
 ## Why Wazuh instead of other SIEMs (e.g. Splunk, ELK, MaxPatrol)
 
