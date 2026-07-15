@@ -1,4 +1,4 @@
-<img width="1300" height="900" alt="1000014137" src="https://github.com/user-attachments/assets/d1262cbf-b7b0-4e97-8fce-a83aba09111c" />
+
 
 ## Goal
 
@@ -18,8 +18,9 @@ For best practice and learning, I decided to use 4 machines:
 ## Network
 
 Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the same network, 10.10.10.0/24. The Wazuh manager is isolated from Kali and the other machines — it only has access to its own IP for collecting and managing logs from the agents.
-<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="900" viewBox="0 0 1300 900" font-family="Segoe UI, Arial, sans-serif">
-  
+<img width="1300" height="950" alt="1000014138" src="https://github.com/user-attachments/assets/604c924a-0e92-4065-9d00-a1aa47b078f5" />
+
+
 ## Tools
 - Wazuh
 - Suricata
