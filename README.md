@@ -1,5 +1,4 @@
 
-
 ## Goal
 
 This project is a home-built SOC (Security Operations Center) lab designed to practice log collection, threat detection, alert triage, and incident response using a real SIEM (Wazuh). The goal is to simulate common attack techniques, detect them, and document the full analyst workflow — from raw attack to alert to response
@@ -18,8 +17,7 @@ For best practice and learning, I decided to use 4 machines:
 ## Network
 
 Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the same network, 10.10.10.0/24. The Wazuh manager is isolated from Kali and the other machines — it only has access to its own IP for collecting and managing logs from the agents.
-<img width="1300" height="950" alt="1000014138" src="https://github.com/user-attachments/assets/604c924a-0e92-4065-9d00-a1aa47b078f5" />
-
+<img width="1300" height="950" alt="1000014139" src="https://github.com/user-attachments/assets/5a0d1c12-7e95-4308-9bab-e93d8cc44df2" />
 
 ## Tools
 - Wazuh
