@@ -12,6 +12,7 @@ For best practice and learning, I decided to use 4 machines:
 | Windows 10 | Monitored endpoint / attack target | Windows 10 | 10.10.10.2 |
 | Ubuntu | Monitored endpoint / attack target | Ubuntu | 10.10.10.3 |
 | Kali | Attacker machine | Kali Linux | 10.10.10.1 |
+| Metasploit 2 | Vuln machine | Linux | 10.10.10.4 |
 
 ## Network
 
@@ -20,6 +21,7 @@ Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the 
 ## Tools
 - Wazuh
 - Suricata
+- Metasploit 2
 
 **Attack tools:**
 - Nmap
