@@ -43,7 +43,7 @@
 - Enforce account lockout policy or fail2ban.
 - Recommend key-based SSH auth instead of passwords.
 
-### Takeaway
+
 
 
 ---
