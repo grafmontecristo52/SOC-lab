@@ -42,7 +42,7 @@ Full write-ups with detection logic, screenshots, and analyst response for each 
 - [Attack 1: SSH Brute Force](./attacks/01-ssh-bruteforce.md)
 - [Attack 2: Network/Port Scanning](./attacks/02-port-scanning.md)
 
-## Screenshots
+
 
 
 
