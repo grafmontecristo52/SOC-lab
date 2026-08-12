@@ -19,25 +19,6 @@ Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the 
 <img width="1300" height="950" alt="1000014139" src="https://github.com/user-attachments/assets/5a0d1c12-7e95-4308-9bab-e93d8cc44df2" />
 
 
-attack traffic (Kali → targets)
-              Kali ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─►┐
-                                                             │
- ┌────────────┐     ┌────────────┐     ┌────────────┐      │
- │ Kali Linux │     │ Windows 10 │     │   Ubuntu   │◄─────┘
- │  Attacker  │     │Target/agent│     │Target/agent│  ┌───────────────┐
- │10.10.10.1  │     │10.10.10.2  │     │10.10.10.3  │  │  Suricata IDS │
- └─────┬──────┘     └─────┬──────┘     └─────┬──────┘  │  NIDS on Ubuntu│
-       │                  │                  │         │ alerts→Wazuh  │
-───────┼──────────────────┼──────────────────┼─────────└───────────────┘
-       │            LAN bus (10.10.10.0/24)  │
-       │                  │                  │
-       ✕ no route         │ agent logs       │ agent + Suricata logs
-       (Kali isolated)    ▼                  ▼
-                    ┌──────────────────────────────┐
-                    │        Wazuh Manager          │
-                    │  SIEM — isolated from Kali    │
-                    │      Wazuh v4.14.5 (OVA)      │
-                    └──────────────────────────────┘
 
 ## Tools
 - Wazuh
