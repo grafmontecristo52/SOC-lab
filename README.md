@@ -12,7 +12,6 @@ For best practice and learning, I decided to use 4 machines:
 | Windows 10 | Monitored endpoint / attack target | Windows 10 | 10.10.10.2 |
 | Ubuntu | Monitored endpoint / attack target | Ubuntu | 10.10.10.3 |
 | Kali | Attacker machine | Kali Linux | 10.10.10.1 |
-| Metasploit 2 |  Monitored endpoint / attack target | Linux |  |
 
 ## Network
 
@@ -22,12 +21,12 @@ Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the 
 ## Tools
 - Wazuh
 - Suricata
-- Metasploit 2
+- 
 
 **Attack tools:**
 - Nmap
 - Hydra
-- Metasploit Framework
+- 
 
 **Assistance / scripting tools:**
 - Claude (used for scripting help and research)
@@ -42,7 +41,6 @@ Full write-ups with detection logic, screenshots, and analyst response for each 
 
 - [Attack 1: SSH Brute Force](./attacks/01-ssh-bruteforce.md)
 - [Attack 2: Network/Port Scanning](./attacks/02-port-scanning.md)
-- [Attack 3: Exploitation via Metasploit](./attacks/03-exploitation-metasploit.md)
 
 ## Screenshots
 
