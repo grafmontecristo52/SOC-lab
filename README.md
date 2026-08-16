@@ -49,5 +49,11 @@ Full write-ups with detection logic, screenshots, and analyst response for each 
 
 
 ## Lessons Learned / Next Steps
-
-
+- I learned how to work with alert triage to distinguish between TP/TF incidents
+- How to Work with Attacking Tools and Protect at the Same Time: What Attacks Look Like from Two Sides
+- Generate basic reports for triage for SOC L2
+- Convert SIEM to SOAR
+- Expand stack
+- Deepen knowledge
+- Participate in CTF
+- Make more projects
