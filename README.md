@@ -23,12 +23,12 @@ Kali (10.10.10.1), Ubuntu (10.10.10.3), and Windows (10.10.10.2) are all on the 
 ## Tools
 - Wazuh
 - Suricata
-- 
+
 
 **Attack tools:**
 - Nmap
 - Hydra
-- 
+- arpspoof
 
 **Assistance / scripting tools:**
 - Claude (used for scripting help and research)
@@ -43,7 +43,7 @@ Full write-ups with detection logic, screenshots, and analyst response for each 
 
 - [Attack 1: SSH Brute Force](./attacks/01-ssh-bruteforce.md)
 - [Attack 2: Network/Port Scanning](./attacks/02-port-scanning.md)
-
+- [Attack 3: ARP-spoofing/Poison](./attacks/03-arp-spoofing.md)
 
 
 
