@@ -1,5 +1,5 @@
 
-## Attack 3: ARP spoofing
+## Attack 3: ARP spoofing/Poison
 
 - **MITRE ATT&CK:** T1557 -  Adversary-in-the-Middle: ARP Cache Poisoning and T1040 -  Network Sniffing 
 - **Attacker:** Kali (10.10.10.1)
